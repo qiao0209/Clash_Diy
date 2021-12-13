@@ -5,404 +5,188 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳_CN_Joey_1', server: jmcm.rokishi.cyou, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_2', server: jmcm.rokishi.cyou, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_3', server: jmcm.rokishi.cyou, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_4', server: jmcm.rokishi.cyou, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_5', server: jmcm.rokishi.cyou, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_6', server: jmcm.rokishi.cyou, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_7', server: jmcm.rokishi.cyou, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_8', server: gzcm.rokishi.cyou, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_9', server: jmcm.rokishi.cyou, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_10', server: jmcm.rokishi.cyou, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_11', server: jmcm.rokishi.cyou, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_12', server: hzcm.rokishi.cyou, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_13', server: jmcm.rokishi.cyou, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_14', server: jmcm.rokishi.cyou, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_15', server: jmcm.rokishi.cyou, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_16', server: jmcm.rokishi.cyou, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_17', server: jmcm.rokishi.cyou, port: 10083, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_18', server: jmcm.rokishi.cyou, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_19', server: gzcm.rokishi.cyou, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_20', server: gzcm.rokishi.cyou, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_21', server: jmcm.rokishi.cyou, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_22', server: gzcm.rokishi.cyou, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_23', server: gzcm.rokishi.cyou, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_24', server: jmcm.rokishi.cyou, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_25', server: jmcm.rokishi.cyou, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_26', server: jmcm.rokishi.cyou, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_27', server: jmcm.rokishi.cyou, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_28', server: jmcm.rokishi.cyou, port: 10083, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_29', server: gzcm.rokishi.cyou, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇺🇸_US_Joey_30', server: sg03-n66.xiaoxiaofeng.cyou, port: 20164, type: vmess, uuid: 89a1eeaa-1ff3-3742-994f-5e9f90515479, alterId: 2, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '🇨🇳_CN_Joey_31', server: jmcm.rokishi.cyou, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇺🇸_US_Joey_32', server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇨🇦_CA_Joey_33', server: 134.195.196.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇬🇧_GB_Joey_34', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '🇺🇸_US_Joey_35', server: 38.75.136.117, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_Joey_36', server: 38.107.226.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇳_CN_Joey_37', server: jmcm.rokishi.cyou, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_38', server: jmcm.rokishi.cyou, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇺🇸_US_Joey_39', server: 172.105.251.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇳_CN_Joey_40', server: jmcm.rokishi.cyou, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_41', server: jmcm.rokishi.cyou, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_42', server: jmcm.rokishi.cyou, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇬🇧_GB_Joey_43', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '🇨🇳_CN_Joey_44', server: jmcm.rokishi.cyou, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
-  - {name: '🇨🇳_CN_Joey_45', server: jmcm.rokishi.cyou, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: 988d7c1c-5432-41aa-b12b-0339065bee88}
+  - {name: '🇷🇴_RO_Joey_1', server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: '🏳_NON_Joey_2', server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba}
+  - {name: '🇷🇴_RO_Joey_3', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '🇨🇦_CA_Joey_4', server: 134.195.196.76, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_Joey_5', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: '🇨🇦_CA_Joey_6', server: 134.195.196.76, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_Joey_7', server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇬🇧_GB_Joey_8', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇨🇦_CA_Joey_9', server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇬🇧_GB_Joey_10', server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇬🇧_GB_Joey_11', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇺🇸_US_Joey_12', server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇳_CN_Joey_13', server: 120.197.88.216, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: '🇨🇦_CA_Joey_14', server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇬🇧_GB_Joey_15', server: 194.124.35.11, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸_US_Joey_16', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
+  - {name: '🇧🇦_BA_Joey_17', server: 185.99.3.108, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '🇨🇦_CA_Joey_18', server: 134.195.196.219, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_Joey_1
-      - 🇨🇳_CN_Joey_2
-      - 🇨🇳_CN_Joey_3
-      - 🇨🇳_CN_Joey_4
-      - 🇨🇳_CN_Joey_5
-      - 🇨🇳_CN_Joey_6
-      - 🇨🇳_CN_Joey_7
-      - 🇨🇳_CN_Joey_8
-      - 🇨🇳_CN_Joey_9
-      - 🇨🇳_CN_Joey_10
-      - 🇨🇳_CN_Joey_11
-      - 🇨🇳_CN_Joey_12
+      - 🇷🇴_RO_Joey_1
+      - 🏳_NON_Joey_2
+      - 🇷🇴_RO_Joey_3
+      - 🇨🇦_CA_Joey_4
+      - 🇺🇸_US_Joey_5
+      - 🇨🇦_CA_Joey_6
+      - 🇺🇸_US_Joey_7
+      - 🇬🇧_GB_Joey_8
+      - 🇨🇦_CA_Joey_9
+      - 🇬🇧_GB_Joey_10
+      - 🇬🇧_GB_Joey_11
+      - 🇺🇸_US_Joey_12
       - 🇨🇳_CN_Joey_13
-      - 🇨🇳_CN_Joey_14
-      - 🇨🇳_CN_Joey_15
-      - 🇨🇳_CN_Joey_16
-      - 🇨🇳_CN_Joey_17
-      - 🇨🇳_CN_Joey_18
-      - 🇨🇳_CN_Joey_19
-      - 🇨🇳_CN_Joey_20
-      - 🇨🇳_CN_Joey_21
-      - 🇨🇳_CN_Joey_22
-      - 🇨🇳_CN_Joey_23
-      - 🇨🇳_CN_Joey_24
-      - 🇨🇳_CN_Joey_25
-      - 🇨🇳_CN_Joey_26
-      - 🇨🇳_CN_Joey_27
-      - 🇨🇳_CN_Joey_28
-      - 🇨🇳_CN_Joey_29
-      - 🇺🇸_US_Joey_30
-      - 🇨🇳_CN_Joey_31
-      - 🇺🇸_US_Joey_32
-      - 🇨🇦_CA_Joey_33
-      - 🇬🇧_GB_Joey_34
-      - 🇺🇸_US_Joey_35
-      - 🇺🇸_US_Joey_36
-      - 🇨🇳_CN_Joey_37
-      - 🇨🇳_CN_Joey_38
-      - 🇺🇸_US_Joey_39
-      - 🇨🇳_CN_Joey_40
-      - 🇨🇳_CN_Joey_41
-      - 🇨🇳_CN_Joey_42
-      - 🇬🇧_GB_Joey_43
-      - 🇨🇳_CN_Joey_44
-      - 🇨🇳_CN_Joey_45
+      - 🇨🇦_CA_Joey_14
+      - 🇬🇧_GB_Joey_15
+      - 🇺🇸_US_Joey_16
+      - 🇧🇦_BA_Joey_17
+      - 🇨🇦_CA_Joey_18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳_CN_Joey_1
-      - 🇨🇳_CN_Joey_2
-      - 🇨🇳_CN_Joey_3
-      - 🇨🇳_CN_Joey_4
-      - 🇨🇳_CN_Joey_5
-      - 🇨🇳_CN_Joey_6
-      - 🇨🇳_CN_Joey_7
-      - 🇨🇳_CN_Joey_8
-      - 🇨🇳_CN_Joey_9
-      - 🇨🇳_CN_Joey_10
-      - 🇨🇳_CN_Joey_11
-      - 🇨🇳_CN_Joey_12
+      - 🇷🇴_RO_Joey_1
+      - 🏳_NON_Joey_2
+      - 🇷🇴_RO_Joey_3
+      - 🇨🇦_CA_Joey_4
+      - 🇺🇸_US_Joey_5
+      - 🇨🇦_CA_Joey_6
+      - 🇺🇸_US_Joey_7
+      - 🇬🇧_GB_Joey_8
+      - 🇨🇦_CA_Joey_9
+      - 🇬🇧_GB_Joey_10
+      - 🇬🇧_GB_Joey_11
+      - 🇺🇸_US_Joey_12
       - 🇨🇳_CN_Joey_13
-      - 🇨🇳_CN_Joey_14
-      - 🇨🇳_CN_Joey_15
-      - 🇨🇳_CN_Joey_16
-      - 🇨🇳_CN_Joey_17
-      - 🇨🇳_CN_Joey_18
-      - 🇨🇳_CN_Joey_19
-      - 🇨🇳_CN_Joey_20
-      - 🇨🇳_CN_Joey_21
-      - 🇨🇳_CN_Joey_22
-      - 🇨🇳_CN_Joey_23
-      - 🇨🇳_CN_Joey_24
-      - 🇨🇳_CN_Joey_25
-      - 🇨🇳_CN_Joey_26
-      - 🇨🇳_CN_Joey_27
-      - 🇨🇳_CN_Joey_28
-      - 🇨🇳_CN_Joey_29
-      - 🇺🇸_US_Joey_30
-      - 🇨🇳_CN_Joey_31
-      - 🇺🇸_US_Joey_32
-      - 🇨🇦_CA_Joey_33
-      - 🇬🇧_GB_Joey_34
-      - 🇺🇸_US_Joey_35
-      - 🇺🇸_US_Joey_36
-      - 🇨🇳_CN_Joey_37
-      - 🇨🇳_CN_Joey_38
-      - 🇺🇸_US_Joey_39
-      - 🇨🇳_CN_Joey_40
-      - 🇨🇳_CN_Joey_41
-      - 🇨🇳_CN_Joey_42
-      - 🇬🇧_GB_Joey_43
-      - 🇨🇳_CN_Joey_44
-      - 🇨🇳_CN_Joey_45
+      - 🇨🇦_CA_Joey_14
+      - 🇬🇧_GB_Joey_15
+      - 🇺🇸_US_Joey_16
+      - 🇧🇦_BA_Joey_17
+      - 🇨🇦_CA_Joey_18
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_Joey_1
-      - 🇨🇳_CN_Joey_2
-      - 🇨🇳_CN_Joey_3
-      - 🇨🇳_CN_Joey_4
-      - 🇨🇳_CN_Joey_5
-      - 🇨🇳_CN_Joey_6
-      - 🇨🇳_CN_Joey_7
-      - 🇨🇳_CN_Joey_8
-      - 🇨🇳_CN_Joey_9
-      - 🇨🇳_CN_Joey_10
-      - 🇨🇳_CN_Joey_11
-      - 🇨🇳_CN_Joey_12
+      - 🇷🇴_RO_Joey_1
+      - 🏳_NON_Joey_2
+      - 🇷🇴_RO_Joey_3
+      - 🇨🇦_CA_Joey_4
+      - 🇺🇸_US_Joey_5
+      - 🇨🇦_CA_Joey_6
+      - 🇺🇸_US_Joey_7
+      - 🇬🇧_GB_Joey_8
+      - 🇨🇦_CA_Joey_9
+      - 🇬🇧_GB_Joey_10
+      - 🇬🇧_GB_Joey_11
+      - 🇺🇸_US_Joey_12
       - 🇨🇳_CN_Joey_13
-      - 🇨🇳_CN_Joey_14
-      - 🇨🇳_CN_Joey_15
-      - 🇨🇳_CN_Joey_16
-      - 🇨🇳_CN_Joey_17
-      - 🇨🇳_CN_Joey_18
-      - 🇨🇳_CN_Joey_19
-      - 🇨🇳_CN_Joey_20
-      - 🇨🇳_CN_Joey_21
-      - 🇨🇳_CN_Joey_22
-      - 🇨🇳_CN_Joey_23
-      - 🇨🇳_CN_Joey_24
-      - 🇨🇳_CN_Joey_25
-      - 🇨🇳_CN_Joey_26
-      - 🇨🇳_CN_Joey_27
-      - 🇨🇳_CN_Joey_28
-      - 🇨🇳_CN_Joey_29
-      - 🇺🇸_US_Joey_30
-      - 🇨🇳_CN_Joey_31
-      - 🇺🇸_US_Joey_32
-      - 🇨🇦_CA_Joey_33
-      - 🇬🇧_GB_Joey_34
-      - 🇺🇸_US_Joey_35
-      - 🇺🇸_US_Joey_36
-      - 🇨🇳_CN_Joey_37
-      - 🇨🇳_CN_Joey_38
-      - 🇺🇸_US_Joey_39
-      - 🇨🇳_CN_Joey_40
-      - 🇨🇳_CN_Joey_41
-      - 🇨🇳_CN_Joey_42
-      - 🇬🇧_GB_Joey_43
-      - 🇨🇳_CN_Joey_44
-      - 🇨🇳_CN_Joey_45
+      - 🇨🇦_CA_Joey_14
+      - 🇬🇧_GB_Joey_15
+      - 🇺🇸_US_Joey_16
+      - 🇧🇦_BA_Joey_17
+      - 🇨🇦_CA_Joey_18
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_Joey_1
-      - 🇨🇳_CN_Joey_2
-      - 🇨🇳_CN_Joey_3
-      - 🇨🇳_CN_Joey_4
-      - 🇨🇳_CN_Joey_5
-      - 🇨🇳_CN_Joey_6
-      - 🇨🇳_CN_Joey_7
-      - 🇨🇳_CN_Joey_8
-      - 🇨🇳_CN_Joey_9
-      - 🇨🇳_CN_Joey_10
-      - 🇨🇳_CN_Joey_11
-      - 🇨🇳_CN_Joey_12
+      - 🇷🇴_RO_Joey_1
+      - 🏳_NON_Joey_2
+      - 🇷🇴_RO_Joey_3
+      - 🇨🇦_CA_Joey_4
+      - 🇺🇸_US_Joey_5
+      - 🇨🇦_CA_Joey_6
+      - 🇺🇸_US_Joey_7
+      - 🇬🇧_GB_Joey_8
+      - 🇨🇦_CA_Joey_9
+      - 🇬🇧_GB_Joey_10
+      - 🇬🇧_GB_Joey_11
+      - 🇺🇸_US_Joey_12
       - 🇨🇳_CN_Joey_13
-      - 🇨🇳_CN_Joey_14
-      - 🇨🇳_CN_Joey_15
-      - 🇨🇳_CN_Joey_16
-      - 🇨🇳_CN_Joey_17
-      - 🇨🇳_CN_Joey_18
-      - 🇨🇳_CN_Joey_19
-      - 🇨🇳_CN_Joey_20
-      - 🇨🇳_CN_Joey_21
-      - 🇨🇳_CN_Joey_22
-      - 🇨🇳_CN_Joey_23
-      - 🇨🇳_CN_Joey_24
-      - 🇨🇳_CN_Joey_25
-      - 🇨🇳_CN_Joey_26
-      - 🇨🇳_CN_Joey_27
-      - 🇨🇳_CN_Joey_28
-      - 🇨🇳_CN_Joey_29
-      - 🇺🇸_US_Joey_30
-      - 🇨🇳_CN_Joey_31
-      - 🇺🇸_US_Joey_32
-      - 🇨🇦_CA_Joey_33
-      - 🇬🇧_GB_Joey_34
-      - 🇺🇸_US_Joey_35
-      - 🇺🇸_US_Joey_36
-      - 🇨🇳_CN_Joey_37
-      - 🇨🇳_CN_Joey_38
-      - 🇺🇸_US_Joey_39
-      - 🇨🇳_CN_Joey_40
-      - 🇨🇳_CN_Joey_41
-      - 🇨🇳_CN_Joey_42
-      - 🇬🇧_GB_Joey_43
-      - 🇨🇳_CN_Joey_44
-      - 🇨🇳_CN_Joey_45
+      - 🇨🇦_CA_Joey_14
+      - 🇬🇧_GB_Joey_15
+      - 🇺🇸_US_Joey_16
+      - 🇧🇦_BA_Joey_17
+      - 🇨🇦_CA_Joey_18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_CN_Joey_1
-      - 🇨🇳_CN_Joey_2
-      - 🇨🇳_CN_Joey_3
-      - 🇨🇳_CN_Joey_4
-      - 🇨🇳_CN_Joey_5
-      - 🇨🇳_CN_Joey_6
-      - 🇨🇳_CN_Joey_7
-      - 🇨🇳_CN_Joey_8
-      - 🇨🇳_CN_Joey_9
-      - 🇨🇳_CN_Joey_10
-      - 🇨🇳_CN_Joey_11
-      - 🇨🇳_CN_Joey_12
+      - 🇷🇴_RO_Joey_1
+      - 🏳_NON_Joey_2
+      - 🇷🇴_RO_Joey_3
+      - 🇨🇦_CA_Joey_4
+      - 🇺🇸_US_Joey_5
+      - 🇨🇦_CA_Joey_6
+      - 🇺🇸_US_Joey_7
+      - 🇬🇧_GB_Joey_8
+      - 🇨🇦_CA_Joey_9
+      - 🇬🇧_GB_Joey_10
+      - 🇬🇧_GB_Joey_11
+      - 🇺🇸_US_Joey_12
       - 🇨🇳_CN_Joey_13
-      - 🇨🇳_CN_Joey_14
-      - 🇨🇳_CN_Joey_15
-      - 🇨🇳_CN_Joey_16
-      - 🇨🇳_CN_Joey_17
-      - 🇨🇳_CN_Joey_18
-      - 🇨🇳_CN_Joey_19
-      - 🇨🇳_CN_Joey_20
-      - 🇨🇳_CN_Joey_21
-      - 🇨🇳_CN_Joey_22
-      - 🇨🇳_CN_Joey_23
-      - 🇨🇳_CN_Joey_24
-      - 🇨🇳_CN_Joey_25
-      - 🇨🇳_CN_Joey_26
-      - 🇨🇳_CN_Joey_27
-      - 🇨🇳_CN_Joey_28
-      - 🇨🇳_CN_Joey_29
-      - 🇺🇸_US_Joey_30
-      - 🇨🇳_CN_Joey_31
-      - 🇺🇸_US_Joey_32
-      - 🇨🇦_CA_Joey_33
-      - 🇬🇧_GB_Joey_34
-      - 🇺🇸_US_Joey_35
-      - 🇺🇸_US_Joey_36
-      - 🇨🇳_CN_Joey_37
-      - 🇨🇳_CN_Joey_38
-      - 🇺🇸_US_Joey_39
-      - 🇨🇳_CN_Joey_40
-      - 🇨🇳_CN_Joey_41
-      - 🇨🇳_CN_Joey_42
-      - 🇬🇧_GB_Joey_43
-      - 🇨🇳_CN_Joey_44
-      - 🇨🇳_CN_Joey_45
+      - 🇨🇦_CA_Joey_14
+      - 🇬🇧_GB_Joey_15
+      - 🇺🇸_US_Joey_16
+      - 🇧🇦_BA_Joey_17
+      - 🇨🇦_CA_Joey_18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_Joey_1
-      - 🇨🇳_CN_Joey_2
-      - 🇨🇳_CN_Joey_3
-      - 🇨🇳_CN_Joey_4
-      - 🇨🇳_CN_Joey_5
-      - 🇨🇳_CN_Joey_6
-      - 🇨🇳_CN_Joey_7
-      - 🇨🇳_CN_Joey_8
-      - 🇨🇳_CN_Joey_9
-      - 🇨🇳_CN_Joey_10
-      - 🇨🇳_CN_Joey_11
-      - 🇨🇳_CN_Joey_12
+      - 🇷🇴_RO_Joey_1
+      - 🏳_NON_Joey_2
+      - 🇷🇴_RO_Joey_3
+      - 🇨🇦_CA_Joey_4
+      - 🇺🇸_US_Joey_5
+      - 🇨🇦_CA_Joey_6
+      - 🇺🇸_US_Joey_7
+      - 🇬🇧_GB_Joey_8
+      - 🇨🇦_CA_Joey_9
+      - 🇬🇧_GB_Joey_10
+      - 🇬🇧_GB_Joey_11
+      - 🇺🇸_US_Joey_12
       - 🇨🇳_CN_Joey_13
-      - 🇨🇳_CN_Joey_14
-      - 🇨🇳_CN_Joey_15
-      - 🇨🇳_CN_Joey_16
-      - 🇨🇳_CN_Joey_17
-      - 🇨🇳_CN_Joey_18
-      - 🇨🇳_CN_Joey_19
-      - 🇨🇳_CN_Joey_20
-      - 🇨🇳_CN_Joey_21
-      - 🇨🇳_CN_Joey_22
-      - 🇨🇳_CN_Joey_23
-      - 🇨🇳_CN_Joey_24
-      - 🇨🇳_CN_Joey_25
-      - 🇨🇳_CN_Joey_26
-      - 🇨🇳_CN_Joey_27
-      - 🇨🇳_CN_Joey_28
-      - 🇨🇳_CN_Joey_29
-      - 🇺🇸_US_Joey_30
-      - 🇨🇳_CN_Joey_31
-      - 🇺🇸_US_Joey_32
-      - 🇨🇦_CA_Joey_33
-      - 🇬🇧_GB_Joey_34
-      - 🇺🇸_US_Joey_35
-      - 🇺🇸_US_Joey_36
-      - 🇨🇳_CN_Joey_37
-      - 🇨🇳_CN_Joey_38
-      - 🇺🇸_US_Joey_39
-      - 🇨🇳_CN_Joey_40
-      - 🇨🇳_CN_Joey_41
-      - 🇨🇳_CN_Joey_42
-      - 🇬🇧_GB_Joey_43
-      - 🇨🇳_CN_Joey_44
-      - 🇨🇳_CN_Joey_45
+      - 🇨🇦_CA_Joey_14
+      - 🇬🇧_GB_Joey_15
+      - 🇺🇸_US_Joey_16
+      - 🇧🇦_BA_Joey_17
+      - 🇨🇦_CA_Joey_18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_Joey_1
-      - 🇨🇳_CN_Joey_2
-      - 🇨🇳_CN_Joey_3
-      - 🇨🇳_CN_Joey_4
-      - 🇨🇳_CN_Joey_5
-      - 🇨🇳_CN_Joey_6
-      - 🇨🇳_CN_Joey_7
-      - 🇨🇳_CN_Joey_8
-      - 🇨🇳_CN_Joey_9
-      - 🇨🇳_CN_Joey_10
-      - 🇨🇳_CN_Joey_11
-      - 🇨🇳_CN_Joey_12
+      - 🇷🇴_RO_Joey_1
+      - 🏳_NON_Joey_2
+      - 🇷🇴_RO_Joey_3
+      - 🇨🇦_CA_Joey_4
+      - 🇺🇸_US_Joey_5
+      - 🇨🇦_CA_Joey_6
+      - 🇺🇸_US_Joey_7
+      - 🇬🇧_GB_Joey_8
+      - 🇨🇦_CA_Joey_9
+      - 🇬🇧_GB_Joey_10
+      - 🇬🇧_GB_Joey_11
+      - 🇺🇸_US_Joey_12
       - 🇨🇳_CN_Joey_13
-      - 🇨🇳_CN_Joey_14
-      - 🇨🇳_CN_Joey_15
-      - 🇨🇳_CN_Joey_16
-      - 🇨🇳_CN_Joey_17
-      - 🇨🇳_CN_Joey_18
-      - 🇨🇳_CN_Joey_19
-      - 🇨🇳_CN_Joey_20
-      - 🇨🇳_CN_Joey_21
-      - 🇨🇳_CN_Joey_22
-      - 🇨🇳_CN_Joey_23
-      - 🇨🇳_CN_Joey_24
-      - 🇨🇳_CN_Joey_25
-      - 🇨🇳_CN_Joey_26
-      - 🇨🇳_CN_Joey_27
-      - 🇨🇳_CN_Joey_28
-      - 🇨🇳_CN_Joey_29
-      - 🇺🇸_US_Joey_30
-      - 🇨🇳_CN_Joey_31
-      - 🇺🇸_US_Joey_32
-      - 🇨🇦_CA_Joey_33
-      - 🇬🇧_GB_Joey_34
-      - 🇺🇸_US_Joey_35
-      - 🇺🇸_US_Joey_36
-      - 🇨🇳_CN_Joey_37
-      - 🇨🇳_CN_Joey_38
-      - 🇺🇸_US_Joey_39
-      - 🇨🇳_CN_Joey_40
-      - 🇨🇳_CN_Joey_41
-      - 🇨🇳_CN_Joey_42
-      - 🇬🇧_GB_Joey_43
-      - 🇨🇳_CN_Joey_44
-      - 🇨🇳_CN_Joey_45
+      - 🇨🇦_CA_Joey_14
+      - 🇬🇧_GB_Joey_15
+      - 🇺🇸_US_Joey_16
+      - 🇧🇦_BA_Joey_17
+      - 🇨🇦_CA_Joey_18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -418,51 +202,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_Joey_1
-      - 🇨🇳_CN_Joey_2
-      - 🇨🇳_CN_Joey_3
-      - 🇨🇳_CN_Joey_4
-      - 🇨🇳_CN_Joey_5
-      - 🇨🇳_CN_Joey_6
-      - 🇨🇳_CN_Joey_7
-      - 🇨🇳_CN_Joey_8
-      - 🇨🇳_CN_Joey_9
-      - 🇨🇳_CN_Joey_10
-      - 🇨🇳_CN_Joey_11
-      - 🇨🇳_CN_Joey_12
+      - 🇷🇴_RO_Joey_1
+      - 🏳_NON_Joey_2
+      - 🇷🇴_RO_Joey_3
+      - 🇨🇦_CA_Joey_4
+      - 🇺🇸_US_Joey_5
+      - 🇨🇦_CA_Joey_6
+      - 🇺🇸_US_Joey_7
+      - 🇬🇧_GB_Joey_8
+      - 🇨🇦_CA_Joey_9
+      - 🇬🇧_GB_Joey_10
+      - 🇬🇧_GB_Joey_11
+      - 🇺🇸_US_Joey_12
       - 🇨🇳_CN_Joey_13
-      - 🇨🇳_CN_Joey_14
-      - 🇨🇳_CN_Joey_15
-      - 🇨🇳_CN_Joey_16
-      - 🇨🇳_CN_Joey_17
-      - 🇨🇳_CN_Joey_18
-      - 🇨🇳_CN_Joey_19
-      - 🇨🇳_CN_Joey_20
-      - 🇨🇳_CN_Joey_21
-      - 🇨🇳_CN_Joey_22
-      - 🇨🇳_CN_Joey_23
-      - 🇨🇳_CN_Joey_24
-      - 🇨🇳_CN_Joey_25
-      - 🇨🇳_CN_Joey_26
-      - 🇨🇳_CN_Joey_27
-      - 🇨🇳_CN_Joey_28
-      - 🇨🇳_CN_Joey_29
-      - 🇺🇸_US_Joey_30
-      - 🇨🇳_CN_Joey_31
-      - 🇺🇸_US_Joey_32
-      - 🇨🇦_CA_Joey_33
-      - 🇬🇧_GB_Joey_34
-      - 🇺🇸_US_Joey_35
-      - 🇺🇸_US_Joey_36
-      - 🇨🇳_CN_Joey_37
-      - 🇨🇳_CN_Joey_38
-      - 🇺🇸_US_Joey_39
-      - 🇨🇳_CN_Joey_40
-      - 🇨🇳_CN_Joey_41
-      - 🇨🇳_CN_Joey_42
-      - 🇬🇧_GB_Joey_43
-      - 🇨🇳_CN_Joey_44
-      - 🇨🇳_CN_Joey_45
+      - 🇨🇦_CA_Joey_14
+      - 🇬🇧_GB_Joey_15
+      - 🇺🇸_US_Joey_16
+      - 🇧🇦_BA_Joey_17
+      - 🇨🇦_CA_Joey_18
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
